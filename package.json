@@ -11,8 +11,7 @@
     "Kirill Platonov <mail@kirillplatonov.com>"
   ],
   "files": [
-    "app/javascript/polaris/*.js",
-    "src/*.js"
+    "app/assets/javascripts/**/*.js"
   ],
   "publishConfig": {
     "access": "public"
@@ -29,7 +28,6 @@
     "release": "npm publish"
   },
   "devDependencies": {
-    "@popperjs/core": "^2.11.8",
     "@rollup/plugin-node-resolve": "^14.1.0",
     "@shopify/polaris": "^10.49.1",
     "postcss": "^8.4.24",
@@ -41,6 +39,7 @@
   },
   "dependencies": {
     "@hotwired/stimulus": "^3.2.1",
+    "@popperjs/core": "^2.11.8",
     "@rails/request.js": "^0.0.8"
   }
 }
